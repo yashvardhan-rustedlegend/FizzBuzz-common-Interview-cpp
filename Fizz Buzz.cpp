@@ -4,7 +4,7 @@ int main()
 {
  	for(int i=1;i<=100;i++)
  	{
- 		if(i%3==0 && i%5==0)
+ 		if(i%3==0 && i%5==0)//or you can also write, if(i%15==0)
  		{
  			cout<<"FizzBuzz"<<endl;
  			//break;
